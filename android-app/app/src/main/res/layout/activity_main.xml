@@ -1,25 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp">
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="20dp">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Noor"
-        android:textSize="32sp"/>
+<TextView
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Noor"
+android:textSize="32sp"/>
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Personal Digital Universe"
-        android:textSize="14sp"/>
+<TextView
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Personal Digital Universe"/>
+
+
+<include
+layout="@layout/widget_profile"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+
+<include
+layout="@layout/widget_library"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+
+<include
+layout="@layout/widget_vault"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+
+<include
+layout="@layout/widget_blog"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
+
+</ScrollView>
